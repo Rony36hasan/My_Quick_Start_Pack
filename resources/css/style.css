@@ -1,0 +1,47 @@
+/* =============== */
+/* BASIC SETUP */
+/* =============== */
+/* ==================== */
+/* BASIC SETUP START */
+/* ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior:smooth;
+}
+body {
+    font-family: ;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3;
+    font-size: 1.6rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/*HEADING START*/
+h1 {
+    font-size: 2.6rem; 
+    color: #fff;
+}
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0rem;
+    visibility: hidden;
+    
+}
+:focus{
+    outline: 0;
+}
+/*HEADING END*/
+/* ==================== */
+/* BASIC SETUP END */
+/* ==================== */
